@@ -3,7 +3,7 @@ const bcryp = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const Usuario = require('../models/usuario');
 const app = express();
-
+//solo para modificar
 app.post('/login', (req, res) => {
     let body = req.body;
     Usuario.findOne({ email: body.email }, (err, usuarioDB) => {
