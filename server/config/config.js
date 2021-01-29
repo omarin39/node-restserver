@@ -6,7 +6,7 @@ process.env.PORT = process.env.PORT || 3000;
 
 
 /*==========================
- * Entorno as
+ * Entorno asasdasdsad
  ===========================*/
 process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
 
