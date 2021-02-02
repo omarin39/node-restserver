@@ -19,7 +19,7 @@ app.use(express.static(path.resolve(__dirname, '../public')));
 console.log(path.resolve(__dirname, '../public'));
 
 
-//Donfiguración global de rutas sa
+//Donfiguración global de rutas saas
 app.use(require('./routes/index'));
 
 

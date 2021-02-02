@@ -77,7 +77,7 @@ app.post('/usuario', [verificaTOKEN, verificaAdminRole], (req, res) => {
     //         mensaje: 'El nombre es requerido',
     //     });
     // }
-
+    /////
     // res.json({
     //     persona: body
     // });

@@ -83,7 +83,7 @@ app.post('/google', async(req, res) => {
             err: e
         });
     });
-
+    //busca archivos
     Usuario.findOne({ email: googleUser.email }, (err, usuarioDB) => {
 
         if (err) {
